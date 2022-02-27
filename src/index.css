@@ -1,0 +1,33 @@
+body{
+  background-color: cadetblue;
+  margin: auto;
+  color: azure;
+  margin: 20px;
+  font: 30px sans-serif;
+}
+
+.board-row{
+  display: flex;
+  flex-flow: row nowrap;
+} 
+
+.game{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.square{
+		background-color:  #444;
+    color: aliceblue;
+    border: 1px solid #999;
+    font-size: 84px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.square:focus{
+  outline: none;
+  background-color: #222;
+}
